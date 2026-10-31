@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheffest | Restaurant Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <nav class="navbar">
+      <button class="navbar__toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navbar__links">
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a href="#franchise">Franchise</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#welcome" class="navbar__logo">
+        <img src="assets/logo.png" alt="Cheffest">
+      </a>
+
+      <div class="navbar__actions">
+        <a href="#" class="icon-btn" aria-label="Carrito">
+          <img src="assets/cart.svg" alt="">
+          <span class="icon-btn__badge">2</span>
+        </a>
+        <a href="#" class="icon-btn" aria-label="Buscar">
+          <img src="assets/search.svg" alt="">
+        </a>
+        <a href="#" class="btn btn--white navbar__member">Become a Member</a>
+      </div>
+    </nav>
+
+    <div class="hero__content" id="welcome">
+      <h1 class="hero__title">Welcome!<br>We Made Delicious Food for You</h1>
+      <p class="hero__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <a href="#menu" class="btn btn--white">Order Online</a>
+    </div>
+  </header>
+
+ 
+  <main>
+    <section class="why" id="menu">
+      <h2 class="why__title">Why We are Best Food Maker</h2>
+      <p class="why__subtitle">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem scrambled it to make a type specimen book.
+      </p>
+
+      <div class="why__grid">
+        <p class="why__text">
+          It is a long established fact that a reader will be distracted layout.
+          The point of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters, as opposed to using English. Many desktop
+          publishing packages and web page editors now use Lorem Ipsum as their
+          default model text, and a search for 'lorem ipsum' will uncover many
+          web sites still in their infancy. Various versions have evolved over
+          the years, sometimes by accident, sometimes on purpose. It is a long
+          established fact that a reader will be distracted by the readable
+          content of a page when looking at its layout. The normal distribution
+          of letters, as opposed to using 'Content here'. Many desktop publishing
+          packages and web page editors.
+        </p>
+
+        <div class="why__video">
+          <img src="assets/chef.jpg" alt="Chef preparando un plato">
+          <button class="why__play" aria-label="Reproducir video">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
