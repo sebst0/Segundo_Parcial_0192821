@@ -2,7 +2,7 @@
 :root {
   --white: #FFFFFF;
   --black: #000000;
-  --bg-dark: #1B2430;          /* fondo de la sección "Why" */
+  --bg-dark: #1B2430;         
   --font: 'Inter', sans-serif;
   --container: 1280px;
 }
@@ -104,9 +104,9 @@ button.btn--black {
 }
 .hero__title {
   max-width: 652px;
-  font-size: 66px;          /* Inter Black 66 */
+  font-size: 66px;         
   font-weight: 900;
-  line-height: 96px;        /* altura de línea 96 */
+  line-height: 96px;        
   letter-spacing: 0;
   color: #FFFFFF;
 }
@@ -153,19 +153,6 @@ button.btn--black {
   overflow: hidden;
 }
 .why__video img { width: 100%; height: 100%; object-fit: cover; }
-.why__play {
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80px; height: 80px;
-  border-radius: 50%;
-  background: var(--white);
-  display: grid;
-  place-items: center;
-  transition: transform .2s ease;
-}
-.why__play:hover { transform: translate(-50%, -50%) scale(1.08); }
-.why__play svg { width: 32px; height: 32px; fill: var(--black); }
 
 
 /* ============ 6. MENU ============ */
@@ -201,9 +188,9 @@ button.btn--black {
   gap: 30px;
 }
 .card {
-  background: #191919;          /* relleno del Figma */
-  border-radius: 16px;          /* radio de esquina 16 */
-  padding: 30px;                /* margen interior 30 */
+  background: #191919;          
+  border-radius: 16px;          
+  padding: 30px;             
   display: flex;
   flex-direction: column;
   align-items: flex-start;
